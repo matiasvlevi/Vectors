@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+
+}
+#vecslot {
+    display: table;
+    height:45px;
+    margin-top:20px;
+    vertical-align: middle;
+}
+.dbutton {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.sbutton {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+#container {
+    display: table;
+    min-width: 20%;
+    position: absolute;
+    left:0px;
+    top:0px;
+    min-height: 100%;
+}
+#cboard {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+}
+.sumbit {
+    width: 75px;
+}
