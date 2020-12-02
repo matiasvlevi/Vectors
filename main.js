@@ -27,8 +27,10 @@ function draw() {
 
 function mouseDragged() {
     if (mouseX > (wnx/10)*2) {
-        vectors[v].v.x = (mouseX-wnx/2)/zoom;
-        vectors[v].v.y = (mouseY-wny/2)/zoom;
+        let x = vectors[v].origin.x;
+        let y = vectors[v].origin.y;
+        vectors[v].v.x = ((mouseX-x)-wnx/2)/zoom;
+        vectors[v].v.y = ((mouseY-y)-wny/2)/zoom;
     }
 
 }

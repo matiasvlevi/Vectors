@@ -16,7 +16,7 @@ body {
 .sbutton {
     display: table-cell;
     vertical-align: middle;
-
+    width: 50px;
 }
 #container {
     display: table;
